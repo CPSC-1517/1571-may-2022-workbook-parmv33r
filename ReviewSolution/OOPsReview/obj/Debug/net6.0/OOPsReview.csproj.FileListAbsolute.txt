@@ -1,0 +1,15 @@
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/bin/Debug/net6.0/OOPsReview
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/bin/Debug/net6.0/OOPsReview.deps.json
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/bin/Debug/net6.0/OOPsReview.runtimeconfig.json
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/bin/Debug/net6.0/OOPsReview.dll
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/bin/Debug/net6.0/OOPsReview.pdb
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/obj/Debug/net6.0/OOPsReview.csproj.AssemblyReference.cache
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/obj/Debug/net6.0/OOPsReview.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/obj/Debug/net6.0/OOPsReview.AssemblyInfoInputs.cache
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/obj/Debug/net6.0/OOPsReview.AssemblyInfo.cs
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/obj/Debug/net6.0/OOPsReview.csproj.CoreCompileInputs.cache
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/obj/Debug/net6.0/OOPsReview.dll
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/obj/Debug/net6.0/refint/OOPsReview.dll
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/obj/Debug/net6.0/OOPsReview.pdb
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/obj/Debug/net6.0/OOPsReview.genruntimeconfig.cache
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/obj/Debug/net6.0/ref/OOPsReview.dll

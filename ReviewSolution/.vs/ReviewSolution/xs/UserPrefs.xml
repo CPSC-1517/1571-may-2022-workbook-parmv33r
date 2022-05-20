@@ -1,19 +1,25 @@
 ﻿<Properties StartupConfiguration="{6EBEF503-D428-4F5C-AF37-A2234EE63474}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OOPsReview/Employment.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReviewUnitTests/EmploymentTests.cs">
     <Files>
       <File FileName="OOPsReview/Program.cs" Line="4" Column="1" />
       <File FileName="OOPsReview/SupervisoryLevel.cs" Line="11" Column="32" />
       <File FileName="OOPsReview/Employment.cs" Line="47" Column="1" />
+      <File FileName="ReviewUnitTests/Usings.cs" Line="1" Column="1" />
+      <File FileName="ReviewUnitTests/EmploymentTests.cs" Line="20" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReviewSolution" expanded="True">
             <Node name="OOPsReview" expanded="True" />
+            <Node name="ReviewUnitTests" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="EmploymentTests.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -22,7 +28,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.OOPsReview PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.OOPsReview PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
 </Properties>

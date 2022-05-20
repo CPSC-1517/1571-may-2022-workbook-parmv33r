@@ -1,3 +1,36 @@
 ﻿<Properties StartupConfiguration="{AB23ACD9-B6A5-4C42-909A-3707B8604022}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../ReviewUnitTests/EmploymentTests.cs">
+    <Files>
+      <File FileName="Program.cs" Line="19" Column="1" />
+      <File FileName="SupervisoryLevel.cs" Line="1" Column="1" />
+      <File FileName="Employment.cs" Line="174" Column="10" />
+      <File FileName="Utilities.cs" Line="12" Column="37" />
+      <File FileName="../ReviewUnitTests/EmploymentTests.cs" Line="5" Column="2" />
+      <File FileName="../ReviewUnitTests/Usings.cs" Line="1" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OOPsReview" expanded="True">
+            <Node name="OOPsReview" expanded="True" />
+            <Node name="ReviewUnitTests" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.OOPsReview PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

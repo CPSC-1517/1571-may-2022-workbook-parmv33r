@@ -79,7 +79,7 @@ namespace OOPsReview.Data
                 // the incoming piece of data is referred to using the keyword "value"
 
                 // ensure that the incoming data is not null or empty or just whitespace
-                if(string.IsNullOrWhiteSpace(value))
+                if (string.IsNullOrWhiteSpace(value))
                 {
                     throw new ArgumentNullException("Title is a required piece of data.");
                 }
@@ -115,7 +115,7 @@ namespace OOPsReview.Data
 
             set
             {
-                if(!Utilities.IsZeroPositive(value))
+                if (!Utilities.IsZeroPositive(value))
                 {
                     throw new ArgumentOutOfRangeException($"Years value {value} is invalid. Must be o or greater");
                 }
@@ -228,14 +228,14 @@ namespace OOPsReview.Data
         public override string ToString()
         {
             // this string is known as a "comma seperated values (csv)" string
-            return $"{Title}, {Level}, {Years}";
+            return $"{Title},{Level},{Years}";
         }
 
         public void SetEmployeeResponsibilityLevel(SupervisoryLevel level)
         {
             // this method, in this example would not be necessary as the acess to directly
             //  to Level (property) is public (set;)
-            // HOWEVER: IF the Level propery had a private set; the outside user would not
+            // HOWEVER: IF the Level property had a private set; the outside user would not
             //  have direct access to changing the property.
             // THEREFORE: a method (besides the constructor) would need to be supplied to allow
             //  the outsider user the ability to alter the property value (if they so desired)

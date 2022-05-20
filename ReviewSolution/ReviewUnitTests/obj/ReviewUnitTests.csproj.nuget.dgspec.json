@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/ReviewUnitTests/ReviewUnitTests.csproj": {}
+  },
+  "projects": {
+    "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/OOPsReview.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/OOPsReview.csproj",
+        "projectName": "OOPsReview",
+        "projectPath": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/OOPsReview.csproj",
+        "packagesPath": "/Users/pbaweja/.nuget/packages/",
+        "outputPath": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/pbaweja/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/ReviewUnitTests/ReviewUnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/ReviewUnitTests/ReviewUnitTests.csproj",
+        "projectName": "ReviewUnitTests",
+        "projectPath": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/ReviewUnitTests/ReviewUnitTests.csproj",
+        "packagesPath": "/Users/pbaweja/.nuget/packages/",
+        "outputPath": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/ReviewUnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/pbaweja/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/OOPsReview.csproj": {
+                "projectPath": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/ReviewSolution/OOPsReview/OOPsReview.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

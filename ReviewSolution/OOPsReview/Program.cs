@@ -10,9 +10,9 @@ Console.WriteLine("Hello, World!");
 // one needs to declare a variable of datatype Employment
 
 //Employment myEmp = new Employment("Level 5 Programmer", SupervisoryLevel.Supervisor, 2); // default constructor
-
 //Console.WriteLine(myEmp.ToString()); // use the instance name to reference items within your class
 
 //myEmp.SetEmployeeResponsibilityLevel(SupervisoryLevel.DepartmentHead);
 
 //Console.WriteLine(myEmp.ToString());
+

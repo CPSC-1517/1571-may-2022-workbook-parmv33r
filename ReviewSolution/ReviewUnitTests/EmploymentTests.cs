@@ -1,6 +1,7 @@
 using OOPsReview.Data;
 
 
+
 namespace ReviewUnitTests
 {
     [TestClass]
@@ -107,18 +108,25 @@ namespace ReviewUnitTests
             }
         }
 
-        //[TestMethod]
-        //public void TestSetEmployeeResponsibilityLevel(SupervisoryLevel level)
-        //{
-        //    //Arrange
-        //    SupervisoryLevel expectedLevel = SupervisoryLevel.TeamLeader;
+        [TestMethod]
+        [DataRow(SupervisoryLevel.Entry)]
+        public void Employment_SetSupervisoryLevel_GoodSet(SupervisoryLevel level)
+        {
 
-        //    //Act
-        //    Employment SetEmployeeResponsibilityLevel = new SetEmployeeResponsibilityLevel(level);
+           
+                //arrange
 
-        //    //Access
-        //    Assert.AreEqual(expectedLevel, SetEmployeeResponsibilityLevel.Level, "Default employment level values not as expected:" +
-        //        $"{expectedLevel} vs {SetEmployeeResponsibilityLevel.Level}");
-        //}
+                Employment employment = new Employment("Boss", SupervisoryLevel.DepartmentHead, 3.5);
+
+                //Act
+                employment.SetEmployeeResponsibilityLevel(level);
+
+                //Access
+                Assert.IsTrue(employment.Level == level, $"Employment level of {employment.Level} is incorrect, it should be {level}.");
+
+        }
+
+
+
     }
 }

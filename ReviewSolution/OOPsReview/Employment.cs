@@ -241,6 +241,8 @@ namespace OOPsReview.Data
             //  the outsider user the ability to alter the property value (if they so desired)
 
             // this assignment used the set; of the property
+            //Enums does not require validation for bad value because it won't compile anyways, we cannot give a wrong value it wont accept.
+
             Level = level;
         }
     }

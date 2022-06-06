@@ -23,7 +23,7 @@ namespace OOPsReview.Data
 
 
 
-        public string Firstname
+        public string FirstName
         {
             get
             {
@@ -106,7 +106,7 @@ namespace OOPsReview.Data
 
         public Person(String firstname, String lastname, ResidentAddress address, List<Employment> employmentpositions)
         {
-            Firstname = firstname;
+            FirstName = firstname;
             LastName = lastname;
             Address = address;
             if (employmentpositions !=null)
@@ -123,7 +123,7 @@ namespace OOPsReview.Data
 
         public void ChangeName(string firstname, string lastname)
         {
-            Firstname = firstname;
+            FirstName = firstname;
             LastName = lastname;
         }
 

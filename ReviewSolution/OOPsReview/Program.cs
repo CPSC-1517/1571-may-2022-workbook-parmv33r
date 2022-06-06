@@ -38,10 +38,34 @@ Console.WriteLine(Address.ToString());
 // test that we can create a Person (Composite instance)
 Person me = null; // variable capable of holding Person instance
 me = CreatePerson(Job, Address);
+
+//OR
+
+//Person me = CreatePerson(Job, Address);
+
 // Access (Check your result)
 
-Console.WriteLine($"{me.Firstname} {me.LastName} lives at {me.Address.ToString()}" +
+Console.WriteLine($"{me.FirstName} {me.LastName} lives at {me.Address.ToString()}" +
     $" having a job count of {me.NumberOfPositions}");
+Console.WriteLine("\nJobs: output via foreach loop\n");
+foreach (var item in me.EmploymentPositions)
+{
+    if (item.Years > 0)
+        Console.WriteLine(item.ToString());
+}
+
+Console.WriteLine("\nJobs: output via for loop\n");
+for (int i = 0; i < me.EmploymentPositions.Count; i++)
+{
+    if (me.EmploymentPositions[i].Years > 0)
+        Console.WriteLine(me.EmploymentPositions[i].ToString());
+}
+//using employment.Parse
+
+
+string theRecord = "Boss,Owner,5.5";
+Employment theParsedRecord = Employment.Parse(theRecord);
+Console.WriteLine(theParsedRecord.ToString());
 
 void CreateJob(ref Employment job)
 {
@@ -86,7 +110,28 @@ ResidentAddress CreateAddress()
 
 Person CreatePerson(Employment job, ResidentAddress address)
 {
-    Person me = new Person("Don", "Welch", address, null);
-    me.AddEmployment(job);
+    //Person me = new Person("Don", "Welch", address, null);
+
+    //one could add the job(s) to the instance of Person (me) after the instance
+    //  is create via the behaviour AddEmployment(Employment emp)
+    // me.AddEmployment(job);
+
+    //OR
+
+    // one could create a List<T> and add to the List<t> before creating the person instance
+    List<Employment> employments = new List<Employment>();
+    employments.Add(job); // add a element to the list
+    Person me = new Person("Don", "Welch", address, employments);
+
+    // Create additional jobs and load to a Person
+    Employment employment = new Employment("New Hire", SupervisoryLevel.Entry, 0.5);
+    me.AddEmployment(employment);
+     employment = new Employment("Team Head", SupervisoryLevel.TeamLeader, 5.2);
+    me.AddEmployment(employment);
+     employment = new Employment("Department IT Head", SupervisoryLevel.DepartmentHead, 6.2);
+    me.AddEmployment(employment);
     return me;
+
+
+
 }

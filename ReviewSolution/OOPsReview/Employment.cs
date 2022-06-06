@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -244,6 +245,94 @@ namespace OOPsReview.Data
             //Enums does not require validation for bad value because it won't compile anyways, we cannot give a wrong value it wont accept.
 
             Level = level;
+        }
+
+        public static Employment Parse(string text)
+        {
+            //text is a string of csv values (comma sperated values)
+            //  value1,value2,value3,.....
+            //Step1 separate the string of values into individual string values
+            //  the result will be an array of strings.
+            // each array element represents a value
+            //  the string class method .Split(delimiter) is use for this action
+            // a delimeter can be ANY C# recognized character
+            // in a csv string, the delimeter character is a comma
+
+            string[] peices = text.Split(',');
+
+            // step 2 verify that sufficient values exist to create the Employement instance.
+            if(peices.Length != 3)
+            {
+                 throw new FormatException($"String not in expeced format. Missing value {text}");
+            }
+
+            //step3 return a new instance of the Employment class
+            //create a new instance on the return statement
+            //as the instance is being created, the employment constrcutor will be used.
+            //Any validation occuring during the execution of the constrcutor will be done, whether the logic is in the constructor OR in the individual property
+            //use the primitive .Parse() methods for C# datatypes i.e. int, double, ....
+
+            return new Employment(
+                peices[0],
+                (SupervisoryLevel)Enum.Parse(typeof(SupervisoryLevel),peices[1])
+                ,
+                double.Parse(peices[2]));
+        }
+
+        //the TryParse() method will receive a string AND output an instance of
+        //  Employment as an output parameter
+        //
+        //syntax of a .TryParse:      xxxx.TryParse(string, out receivingvariable)
+        //         int example        int.TryParse(inputData, out myIntegerNumber)
+        //
+        // xxxx can be any datatype
+        //Can xxxx be an class; yes; why a class is a developer defined datatype
+        //
+        //the method will return a boolean value indicating if the action with
+        //  the method was successful
+        //the action within the method will be to call the .Parse() method
+        //this is the same concept of Parsing primitive datatypes already in C#
+
+        public static bool TryParse(string text, out Employment result)
+        {
+            //Why the value null?
+            //the default value for any class instance (the object) is null
+            result = null;
+            bool valid = false;
+            try
+            {
+                if (string.IsNullOrWhiteSpace(text))
+                {
+                    throw new ArgumentNullException("Parsing string is empty");
+                }
+                //action : try to parse the string using .Parse()
+                result = Parse(text);
+                valid = true;
+            }
+            catch (FormatException ex)
+            {
+                //DO NOT print out the error
+                //INSTEAD re throw the exception
+                //think of this as a rely race, passing the baton
+                //this method DOES NOT actual handle the display of the error
+                //the display of an error messages is done by the driver routine (in
+                //  out case is the code in Program.cs)
+                throw new FormatException(ex.Message);
+            }
+            catch (ArgumentNullException ex)
+            {
+                throw new ArgumentNullException(ex.Message);
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                throw new ArgumentOutOfRangeException(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                //handle any other unexpected error
+                throw new Exception($"TryParse Employment unexpected error: {ex.Message}");
+            }
+            return valid;
         }
     }
 }

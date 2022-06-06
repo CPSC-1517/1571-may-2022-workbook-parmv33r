@@ -1,25 +1,25 @@
 ﻿<Properties StartupConfiguration="{6EBEF503-D428-4F5C-AF37-A2234EE63474}|Default">
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.OOPsReview PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="OOPsReview/Program.cs">
     <Files>
-      <File FileName="OOPsReview/Program.cs" Line="42" Column="5" />
+      <File FileName="OOPsReview/Program.cs" Line="69" Column="1" />
       <File FileName="OOPsReview/SupervisoryLevel.cs" Line="11" Column="32" />
-      <File FileName="OOPsReview/Employment.cs" Line="155" Column="1" />
+      <File FileName="OOPsReview/Employment.cs" Line="301" Column="32" />
       <File FileName="OOPsReview/Utilities.cs" Line="1" Column="1" />
       <File FileName="ReviewUnitTests/EmploymentTests.cs" Line="17" Column="43" />
       <File FileName="OOPsReview/ResidentAddress.cs" Line="15" Column="23" />
-      <File FileName="OOPsReview/Person.cs" Line="120" Column="17" />
+      <File FileName="OOPsReview/Person.cs" Line="26" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReviewSolution" expanded="True">
             <Node name="OOPsReview" expanded="True" />
-            <Node name="ReviewUnitTests" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="ProjectDependencies" expanded="True" />
-              </Node>
-            </Node>
           </Node>
         </State>
       </Pad>
@@ -28,15 +28,16 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="ReviewSolution" expanded="True" selected="True" />
+          <Node name="ReviewSolution" expanded="True">
+            <Node name="ReviewUnitTests" expanded="True">
+              <Node name="ReviewUnitTests" expanded="True">
+                <Node name="EmploymentTests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.OOPsReview PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
 </Properties>

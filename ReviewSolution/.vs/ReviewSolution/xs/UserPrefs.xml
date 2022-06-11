@@ -1,25 +1,27 @@
 ﻿<Properties StartupConfiguration="{6EBEF503-D428-4F5C-AF37-A2234EE63474}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.OOPsReview PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="OOPsReview/Program.cs">
     <Files>
-      <File FileName="OOPsReview/Program.cs" Line="69" Column="1" />
+      <File FileName="OOPsReview/Program.cs" Line="157" Column="34" />
       <File FileName="OOPsReview/SupervisoryLevel.cs" Line="11" Column="32" />
-      <File FileName="OOPsReview/Employment.cs" Line="301" Column="32" />
+      <File FileName="OOPsReview/Employment.cs" Line="315" Column="40" />
       <File FileName="OOPsReview/Utilities.cs" Line="1" Column="1" />
       <File FileName="ReviewUnitTests/EmploymentTests.cs" Line="17" Column="43" />
-      <File FileName="OOPsReview/ResidentAddress.cs" Line="15" Column="23" />
-      <File FileName="OOPsReview/Person.cs" Line="26" Column="29" />
+      <File FileName="OOPsReview/ResidentAddress.cs" Line="24" Column="18" />
+      <File FileName="OOPsReview/Person.cs" Line="120" Column="39" />
+      <File FileName="OOPsReview/MyData.dat" Line="1" Column="1" />
+      <File FileName="OOPsReview/Employment.csv" Line="1" Column="1" />
+      <File FileName="../../1517-may-2022-inclass1-parmv33r/FeedBack/ReadMe.md" Line="38" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReviewSolution" expanded="True">
-            <Node name="OOPsReview" expanded="True" />
+            <Node name="OOPsReview" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="ReviewUnitTests" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -28,16 +30,14 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="ReviewSolution" expanded="True">
-            <Node name="ReviewUnitTests" expanded="True">
-              <Node name="ReviewUnitTests" expanded="True">
-                <Node name="EmploymentTests" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="ReviewSolution" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.OOPsReview PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

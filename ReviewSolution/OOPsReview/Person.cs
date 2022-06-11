@@ -1,5 +1,9 @@
 ﻿using System;
 
+#region Additional Namespaces
+using System.Text.Json.Serialization;
+#endregion
+
 namespace OOPsReview.Data
 {
 	public class Person
@@ -65,6 +69,16 @@ namespace OOPsReview.Data
 
         // This field is not a property
         // The data type is a developer defined datatype (struct)
+
+        //JSON
+        //Json Serialization has no problem in creating the named pairs
+        //  for this field due to the option IncludeFields on the write calls
+        //HOWEVER, the deserializer does have a problem
+        //solution: use an annotation to indicate that the field
+        //          is include for use by JSON
+        //to use this annotation you will need to add a namespace (see above)
+        //  in resolving the conflict
+        [JsonInclude]
 
         public ResidentAddress Address;
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Yi3MJea6l6jsS5sHSoy4ctpxxpls5IZa+MyfZPQdeJ4=",
+  "Hash": "I5YUBWaCJLLdo9hgc5veauN6NEZjkcMORuO6cBEUw5w=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/wwwroot/lib/.DS_Store",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/wwwroot/",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "lib/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/.DS_Store"
     },
     {
       "Identity": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",

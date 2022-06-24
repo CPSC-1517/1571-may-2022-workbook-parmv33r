@@ -38,7 +38,7 @@ namespace WebApp.Pages.Samples
 
         [BindProperty]
         public int RangeValue { get; set; }
-        
+
         public void OnGet()
         {
             PopulateLists();
@@ -48,11 +48,11 @@ namespace WebApp.Pages.Samples
         {
             //pretending that this data comes from the database
             Rides = new List<SelectionList>();
-            Rides.Add(new SelectionList() { ValueId = 3, DisplayText="Bike" });
-            Rides.Add(new SelectionList() { ValueId = 5, DisplayText="Board" });
-            Rides.Add(new SelectionList() { ValueId = 2, DisplayText="Bus" });
-            Rides.Add(new SelectionList() {ValueId = 1, DisplayText="Car" });
-            Rides.Add(new SelectionList() { ValueId = 4, DisplayText="Motorcycle" });
+            Rides.Add(new SelectionList() { ValueId = 3, DisplayText = "Bike" });
+            Rides.Add(new SelectionList() { ValueId = 5, DisplayText = "Board" });
+            Rides.Add(new SelectionList() { ValueId = 2, DisplayText = "Bus" });
+            Rides.Add(new SelectionList() { ValueId = 1, DisplayText = "Car" });
+            Rides.Add(new SelectionList() { ValueId = 4, DisplayText = "Motorcycle" });
 
             VacationSpotList = new List<string>();
             VacationSpotList.Add("California");

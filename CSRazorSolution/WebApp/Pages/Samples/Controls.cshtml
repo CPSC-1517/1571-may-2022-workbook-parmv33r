@@ -142,43 +142,50 @@
     <div class="col-sm">
         <h3>Lists and Slider</h3>
         <form method="post">
-            <label>
-                Select favourite Ride<br/>
-                <select asp-for="MyRide">
+            <div class="form-group">
+                <label>
+                    Select favourite Ride
+                </label>
+                <br />
+                <select asp-for="MyRide" class="form-control">
                     <option value="0">select a ride ...</option>
-                    @foreach(var item in Model.Rides)
+                    @foreach (var item in Model.Rides)
                     {
                         <option value="@item.ValueId">@item.DisplayText</option>
                     }
                 </select>
-            </label>
+            </div>
             <br/>
-            <label>
-                Select favourite Vacation Spot
+            <div class="form-group">
+                <label>
+                    Select favourite Vacation Spot
+                </label>
                 <input type="text" asp-for="VacationSpot"
-                    list = "VacationChoices" />
+                       list="VacationChoices" class="form-control"/>
                 <datalist id="VacationChoices">
-                    @foreach(var item in Model.VacationSpotList)
+                    @foreach (var item in Model.VacationSpotList)
                     {
                         //use if expected value is the same as the display value
-                        <option value="@item"/>
+                        <option value="@item" />
 
-                    @*   use if the expected value is different then the display value
-                         this setup is the same as the drop down list
+                        @*   use if the expected value is different then the display value
+                 this setup is the same as the drop down list
 
-                        <option value="@item.expectedvalue">@item.displayvalue</option>*@ 
-                   }
+                <option value="@item.expectedvalue">@item.displayvalue</option>*@
+                    }
                 </datalist>
-            </label>
+            </div>
             <br/>
-            <label>
-                Review of controls (bad < - > good)
+            <div class="form-group">
+                <label>
+                    Review of controls (bad < - > good)
+                </label>
                 <input type="range" min="0" max="10" steps="1" value="5"
-                    asp-for="RangeValue" checked="@Model.RangeValue" />
-            </label>
+                       asp-for="RangeValue" checked="@Model.RangeValue" class="form-range" />
+            </div>
             <br/>
                 <button type="submit" value="listslider" id="theListSliderButton"
-                name="theListSliderButton" asp-page-handler="ListSlider">
+                name="theListSliderButton" asp-page-handler="ListSlider" class="btn btn-primary">
                 List/Slider Submit</button>
 
         </form>

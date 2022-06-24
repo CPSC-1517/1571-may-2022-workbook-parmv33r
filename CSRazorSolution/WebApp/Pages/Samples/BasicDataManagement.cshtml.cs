@@ -15,6 +15,8 @@ namespace WebApp.Pages.Samples
         public int Num { get; set; }
         [BindProperty]
         public string MassText { get; set; }
+        [BindProperty]
+        public int FavouriteCourse { get; set; }
         public string Feedback { get; set; }
         public void OnGet()
         {
@@ -37,7 +39,7 @@ namespace WebApp.Pages.Samples
             else
             {
                 Feedback = $"You entered the value {Num} (display by OnPost)\n" +
-                $" your mass text is {MassText}";
+                $" your mass text is {MassText} and I like the {FavouriteCourse} course.";
             }
         }
     }

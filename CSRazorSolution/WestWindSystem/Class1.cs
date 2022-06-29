@@ -1,9 +1,6 @@
-﻿using System;
-
-namespace WestWindSystem
+﻿namespace WestWindSystem;
+public class Class1
 {
-    public class Class1
-    {
-    }
+
 }
 

@@ -1,16 +1,20 @@
 ﻿<Properties StartupConfiguration="{D8B7E3EA-2722-47A3-BD9C-361F2F7B2B2A}|Default">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.WestWindSystem FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.WebApp PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WestWindSystem/Entities/BuildVersion.cs">
+  <MonoDevelop.Ide.ItemProperties.WestWindSystem FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApp/appsettings.json">
     <Files>
       <File FileName="WestWindSystem/Class1.cs" Line="3" Column="1" />
       <File FileName="WebApp/Pages/Index.cshtml" Line="35" Column="2" />
-      <File FileName="WestWindSystem/Entities/BuildVersion.cs" Line="17" Column="1" />
+      <File FileName="WestWindSystem/Entities/BuildVersion.cs" Line="71" Column="22" />
+      <File FileName="WestWindSystem/DAL/WestWindContext.cs" Line="34" Column="1" />
+      <File FileName="WestWindSystem/BLL/dummy.cs" Line="26" Column="9" />
+      <File FileName="WebApp/appsettings.json" Line="10" Column="102" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,6 +31,7 @@
               </Node>
             </Node>
             <Node name="WestWindSystem" expanded="True">
+              <Node name="Dependencies" expanded="True" />
               <Node name="BLL" expanded="True" />
               <Node name="DAL" expanded="True" />
               <Node name="Entities" expanded="True" />
@@ -39,5 +44,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
 </Properties>

@@ -1,9 +1,9 @@
 ﻿using System;
 namespace WestWindSystem.DAL
 {
-    public class Dummy
+    public class WestWindContext
     {
-        public Dummy()
+        public WestWindContext()
         {
         }
     }

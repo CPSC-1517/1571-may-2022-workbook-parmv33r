@@ -1,0 +1,12 @@
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/bin/Debug/net6.0/WestWindSystem.deps.json
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/bin/Debug/net6.0/WestWindSystem.dll
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/bin/Debug/net6.0/WestWindSystem.pdb
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/obj/Debug/net6.0/WestWindSystem.csproj.AssemblyReference.cache
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/obj/Debug/net6.0/WestWindSystem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/obj/Debug/net6.0/WestWindSystem.AssemblyInfoInputs.cache
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/obj/Debug/net6.0/WestWindSystem.AssemblyInfo.cs
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/obj/Debug/net6.0/WestWindSystem.csproj.CoreCompileInputs.cache
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/obj/Debug/net6.0/WestWindSystem.dll
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/obj/Debug/net6.0/refint/WestWindSystem.dll
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/obj/Debug/net6.0/WestWindSystem.pdb
+/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/obj/Debug/net6.0/ref/WestWindSystem.dll

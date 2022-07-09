@@ -38,3 +38,20 @@ else
 {
     <p>@Model.MyName</p>
 }
+
+<br />
+<br />
+@if (Model.buildVersionInfo == null)
+    {
+        <p>Build Version is Unknown</p>
+    }
+    else
+    {
+        <p>
+            Databse version:    @Model.buildVersionInfo.Major
+                                @Model.buildVersionInfo.Minor
+                                @Model.buildVersionInfo.Build
+
+            was released on @Model.buildVersionInfo.ReleaseDate.ToShortDateString()
+        </p>
+    }

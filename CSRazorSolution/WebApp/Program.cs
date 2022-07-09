@@ -1,4 +1,16 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Microsoft.EntityFrameworkCore;
+using WestWindSystem;
+
+var builder = WebApplication.CreateBuilder(args);
+
+//Add Services to the web application container
+//this registeration will use the WWBackEndDependencies() method
+//coded in the library
+//1) retrieve the connections string information from your appsettings.json
+var connectionString = builder.Configuration.GetConnectionString("WWDB");
+
+//2) setup the registeration of services to be used in your web application
+builder.Services.WWBackendDependencies(options => options.UseSqlServer(connectionString));
 
 // Add services to the container.
 builder.Services.AddRazorPages();

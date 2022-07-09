@@ -12,4 +12,9 @@
   <ItemGroup>
     <Folder Include="Pages\Samples\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WestWindSystem\WestWindSystem.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

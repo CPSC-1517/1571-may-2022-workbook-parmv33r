@@ -29,8 +29,11 @@ namespace WestWindSystem.DAL
         //  code within your class library.
         //the properties represent a collection of instances of the entity
         // retreived from or sent to the database
+
         // one property per entity in Entities.
         public DbSet<BuildVersion> BuildVersions { get; set; }
+        public DbSet<Region> Regions { get; set; }
+        public DbSet<Territory> Territories { get; set; }
 
     }
 }

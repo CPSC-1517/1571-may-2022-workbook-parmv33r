@@ -52,9 +52,9 @@ namespace WebApp.Pages;
                 MyName = null;
             }
 
-        //make my firs call to the database using the services within
-        // BuildVersionServices of the class library
-        buildVersionInfo = _buildversionServices.GetBuildVersion();
+            //make my firs call to the database using the services within
+            // BuildVersionServices of the class library
+            buildVersionInfo = _buildversionServices.GetBuildVersion();
             //control is returned to the web server
         }
     }

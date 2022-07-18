@@ -1,33 +1,21 @@
 ﻿<Properties StartupConfiguration="{D8B7E3EA-2722-47A3-BD9C-361F2F7B2B2A}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.WebApp PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.ItemProperties.WestWindSystem FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebApp/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApp/Pages/Index.cshtml">
     <Files>
-      <File FileName="WestWindSystem/Class1.cs" Line="3" Column="1" />
-      <File FileName="WebApp/Pages/Index.cshtml" Line="35" Column="2" />
-      <File FileName="WestWindSystem/Entities/BuildVersion.cs" Line="71" Column="22" />
-      <File FileName="WestWindSystem/DAL/WestWindContext.cs" Line="34" Column="1" />
-      <File FileName="WestWindSystem/BLL/dummy.cs" Line="26" Column="9" />
-      <File FileName="WebApp/appsettings.json" Line="10" Column="102" />
+      <File FileName="WebApp/Pages/Index.cshtml" Line="57" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CSRazorSolution" expanded="True">
             <Node name="WebApp" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="FrameworkReferences" expanded="True" />
-              </Node>
               <Node name="Pages" expanded="True">
                 <Node name="Samples" expanded="True">
-                  <Node name="Controls.cshtml" expanded="True" />
+                  <Node name="PartialFilterSearch.cshtml" expanded="True" />
+                  <Node name="RegionQueryOne.cshtml" expanded="True" />
                 </Node>
+                <Node name="Shared" expanded="True" />
+                <Node name="Index.cshtml" expanded="True" selected="True" />
+                <Node name="Privacy.cshtml" expanded="True" />
               </Node>
             </Node>
             <Node name="WestWindSystem" expanded="True">
@@ -44,4 +32,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

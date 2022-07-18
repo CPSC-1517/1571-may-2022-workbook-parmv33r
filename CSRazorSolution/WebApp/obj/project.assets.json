@@ -1788,34 +1788,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\parmv\\.nuget\\packages\\": {}
+    "/Users/pbaweja/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\parmv\\Documents\\GitHub\\1571-may-2022-workbook-parmv33r\\CSRazorSolution\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "C:\\Users\\parmv\\Documents\\GitHub\\1571-may-2022-workbook-parmv33r\\CSRazorSolution\\WebApp\\WebApp.csproj",
-      "packagesPath": "C:\\Users\\parmv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\parmv\\Documents\\GitHub\\1571-may-2022-workbook-parmv33r\\CSRazorSolution\\WebApp\\obj\\",
+      "projectPath": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/WebApp.csproj",
+      "packagesPath": "/Users/pbaweja/.nuget/packages/",
+      "outputPath": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\parmv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/pbaweja/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\parmv\\Documents\\GitHub\\1571-may-2022-workbook-parmv33r\\CSRazorSolution\\WestWindSystem\\WestWindSystem.csproj": {
-              "projectPath": "C:\\Users\\parmv\\Documents\\GitHub\\1571-may-2022-workbook-parmv33r\\CSRazorSolution\\WestWindSystem\\WestWindSystem.csproj"
+            "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/WestWindSystem.csproj": {
+              "projectPath": "/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WestWindSystem/WestWindSystem.csproj"
             }
           }
         }
@@ -1847,7 +1846,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }

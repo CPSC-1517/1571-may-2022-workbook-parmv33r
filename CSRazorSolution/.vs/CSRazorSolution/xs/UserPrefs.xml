@@ -1,7 +1,16 @@
 ﻿<Properties StartupConfiguration="{D8B7E3EA-2722-47A3-BD9C-361F2F7B2B2A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebApp/Pages/Index.cshtml">
+  <MonoDevelop.Ide.ItemProperties.WebApp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApp/Pages/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="WebApp/Pages/Index.cshtml" Line="57" Column="6" />
+      <File FileName="WebApp/Pages/Index.cshtml" Line="17" Column="20" />
+      <File FileName="WestWindSystem/BLL/TerritoryServices.cs" Line="12" Column="1" />
+      <File FileName="WebApp/Pages/Shared/_Layout.cshtml" Line="71" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,8 +22,10 @@
                   <Node name="PartialFilterSearch.cshtml" expanded="True" />
                   <Node name="RegionQueryOne.cshtml" expanded="True" />
                 </Node>
-                <Node name="Shared" expanded="True" />
-                <Node name="Index.cshtml" expanded="True" selected="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+                <Node name="Index.cshtml" expanded="True" />
                 <Node name="Privacy.cshtml" expanded="True" />
               </Node>
             </Node>
@@ -32,11 +43,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WebApp PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

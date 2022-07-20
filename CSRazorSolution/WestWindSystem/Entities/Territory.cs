@@ -15,7 +15,7 @@ namespace WestWindSystem.Entities
             Employees = new HashSet<Employee>();
         }
 
-        [Key]
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
         [StringLength(20)]
         public string TerritoryID { get; set; }
         [Required]

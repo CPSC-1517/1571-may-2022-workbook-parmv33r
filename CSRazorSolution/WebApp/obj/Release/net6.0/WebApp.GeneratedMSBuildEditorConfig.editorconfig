@@ -1,0 +1,64 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApp
+build_property.RootNamespace = WebApp
+build_property.ProjectDir = /Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/Pages/Samples/BasicDataManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FtcGxlcy9CYXNpY0RhdGFNYW5hZ2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/Pages/Samples/Controls.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FtcGxlcy9Db250cm9scy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/Pages/Samples/PartialFilterSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FtcGxlcy9QYXJ0aWFsRmlsdGVyU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/Pages/Samples/ReceivingPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FtcGxlcy9SZWNlaXZpbmdQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/Pages/Samples/RegionQueryOne.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FtcGxlcy9SZWdpb25RdWVyeU9uZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/pbaweja/Documents/CPSC1517-May2022/1571-may-2022-workbook-parmv33r/CSRazorSolution/WebApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qeb871jn8t

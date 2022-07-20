@@ -8,9 +8,11 @@
 
   <ItemGroup>
     <None Remove="Pages\Samples\" />
+    <None Remove="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Samples\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WestWindSystem\WestWindSystem.csproj">

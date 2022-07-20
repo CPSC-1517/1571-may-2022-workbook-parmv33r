@@ -50,7 +50,7 @@ namespace WebApp.Pages.Samples
         }
 
         private void PopulateLists()
-        {
+        { 
             //this method will obtain the data for any require list to be used
             //      in populating controls or for local logic
             regionsList = _regionServices.Region_List();
@@ -100,6 +100,8 @@ namespace WebApp.Pages.Samples
             ModelState.Clear();
             return Page();
         }
+
+
         public void RetrieveRegion(int id)
         {
             regionInfo = _regionServices.Region_GetByID(id);

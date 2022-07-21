@@ -50,13 +50,13 @@ namespace WebApp.Pages.Samples
         }
 
         private void PopulateLists()
-        { 
+        {
             //this method will obtain the data for any require list to be used
             //      in populating controls or for local logic
             regionsList = _regionServices.Region_List();
         }
 
-        
+
 
         // specific post method to use in conjunction with asp-page-handler="xxx"
         public IActionResult OnPostFetch()
@@ -65,14 +65,14 @@ namespace WebApp.Pages.Samples
             {
                 FeedbackMessage = "Required: Region id is a non-zero positive whole number.";
             }
-            
+
 
             else
             {
                 RetrieveRegion(regionid);
             }
             PopulateLists();
-            
+
             return Page();
         }
 
@@ -96,12 +96,11 @@ namespace WebApp.Pages.Samples
         public IActionResult OnPostClear()
         {
             FeedbackMessage = "";
-            //regionid = 0;
+            regionid = 0;
             ModelState.Clear();
+            PopulateLists();
             return Page();
         }
-
-
         public void RetrieveRegion(int id)
         {
             regionInfo = _regionServices.Region_GetByID(id);

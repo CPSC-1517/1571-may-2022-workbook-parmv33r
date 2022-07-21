@@ -7,7 +7,7 @@
 
 <p>@Model.FeedbackMessage</p>
 
-<form method="post" class="form-group">
+<form method="post">
     <label>
         @* the type attribute can be set to different input for acceptable value
              "number" restricts input to numerics
@@ -29,37 +29,36 @@
                  on your form controls
         *@
         Enter Region ID:
+        <input type="number" asp-for="regionid" style="width:80px"
+               placeholder="enter your region id number"
+               step="1" required />
     </label>
-
-    <input class="form-control" type="number" asp-for="regionid"
-           placeholder="enter your region id number"
-           step="1" required />
     <label>
         Select a Region:
-    </label>
-    <select class="form-control" asp-for="selectRegion">
-        @* if you do not indicate a specific option to display
-            then the list defaults to the first option line
-        *@
-        <option value="0">select ... </option>
-        @foreach (var item in Model.regionsList)
-        {
-            //to retain the selection, you need to specify a row to be
-            //  the selected option
-            //this is done with the selected attribute on the value
-            if (item.RegionID == Model.selectRegion)
+        <select asp-for="selectRegion" style="width:250px;">
+            @* if you do not indicate a specific option to display
+                then the list defaults to the first option line
+            *@
+            <option value="0">select ... </option>
+            @foreach (var item in Model.regionsList)
             {
-                <option value="@item.RegionID" selected>@item.RegionDescription</option>
+                //to retain the selection, you need to specify a row to be
+                //  the selected option
+                //this is done with the selected attribute on the value
+                if (item.RegionID == Model.selectRegion)
+                {
+                    <option value="@item.RegionID" selected>@item.RegionDescription</option>
 
+                }
+                else
+                {
+                    <option value="@item.RegionID">@item.RegionDescription</option>
+                }
             }
-            else
-            {
-                <option value="@item.RegionID">@item.RegionDescription</option>
-            }
-        }
-    </select>
+        </select>
+    </label>
     <br />
-    <button class="btn btn-primary" type="submit" asp-page-handler="Fetch">Fetch By Id</button>&nbsp;&nbsp;
-    <button class="btn btn-danger" type="submit" asp-page-handler="Select" formnovalidate>Select By Description</button>&nbsp;&nbsp;
-    <button class="btn btn-secondary" type="submit" asp-page-handler="Clear" formnovalidate>Clear</button>
+    <button type="submit" asp-page-handler="Fetch">Fetch By Id</button>&nbsp;&nbsp;
+    <button type="submit" asp-page-handler="Select" formnovalidate>Select By Description</button>&nbsp;&nbsp;
+    <button type="submit" asp-page-handler="Clear" formnovalidate>Clear</button>
 </form>

@@ -16,7 +16,7 @@
         <p style="color:firebrick;">@Model.ErrorMessage</p>
     }*@
 
-<form method="post">
+<form method="post" class="form-group">
     @*create a control that will hold the product pkey value
         this control should NOT be changable IF your pkey is an IDENTITY
         this control CAN be visible (type="text") or hiddent (type="hidden")
@@ -26,23 +26,23 @@
         ID:
         @if (Model.ProductInfo == null)
         {
-            <input type="text" asp-for="ProductInfo.ProductID" readonly data-val="false"
+            <input class="form-control" type="text" asp-for="ProductInfo.ProductID" readonly data-val="false"
                    value="0" />
         }
         else
         {
-            <input type="text" asp-for="ProductInfo.ProductID" readonly data-val="false" />
+            <input class="form-control" type="text" asp-for="ProductInfo.ProductID" readonly data-val="false" />
         }
     </label>
     <label>
         Name:
-        <input type="text" asp-for="ProductInfo.ProductName"
+        <input class="form-control" type="text" asp-for="ProductInfo.ProductName"
                placeholder="product name" />
     </label>
     <label>
         Supplier:
         Select a supplier:
-        <select asp-for="ProductInfo.SupplierID">
+        <select class="form-control" asp-for="ProductInfo.SupplierID">
             <option value="0">select ....</option>
             @foreach (var sup in Model.SupplierList)
             {
@@ -53,12 +53,11 @@
                 </option>
             }
         </select>
-
     </label>
     <label>
         Category:
         Select a category:
-        <select asp-for="ProductInfo.CategoryID">
+        <select class="form-control" asp-for="ProductInfo.CategoryID">
             <option value="0">select ....</option>
             @foreach (var cat in Model.CategoryList)
             {
@@ -73,22 +72,22 @@
     </label>
     <label>
         Unit Size:
-        <input type="text" asp-for="ProductInfo.QuantityPerUnit"
+        <input class="form-control" type="text" asp-for="ProductInfo.QuantityPerUnit"
                placeholder="unit size" />
     </label>
     <label>
         Min Order Qty:
-        <input type="number" asp-for="ProductInfo.MinimumOrderQuantity"
+        <input class="form-control" type="number" asp-for="ProductInfo.MinimumOrderQuantity"
                placeholder="minimum order qty" step="1" min="1" />
     </label>
     <label>
         Unit Price:
-        <input type="number" asp-for="ProductInfo.UnitPrice"
+        <input class="form-control" type="number" asp-for="ProductInfo.UnitPrice"
                placeholder="unit price" step="0.01" min="0.00" />
     </label>
     <label>
         UoO:
-        <input type="number" asp-for="ProductInfo.UnitsOnOrder"
+        <input class="form-control" type="number" asp-for="ProductInfo.UnitsOnOrder"
                placeholder="on order" step="1" min="0" />
     </label>
     @*
@@ -110,4 +109,43 @@
         <input type="checkbox" asp-for="ProductInfo.Discontinued" value="true" />
         &nbsp;&nbsp; (discontinued if checked)
     </label>
+
+    <br />
+    <br />
+    @*Manage the buttons, restricting user access*@
+
+    @if (Model.productid.HasValue)
+    {
+        <button class="btn btn-primary" type="submit" asp-page-handler="New" disabled>Save New</button>
+        <button class="btn btn-primary" type="submit" asp-page-handler="Update">Update</button>
+        @*add javascript prompt precoded method for delete confirmation using the onclick event of the button
+
+            this button should be able to press whether the is valid data or not being displayed.
+            You are planning to delete the data from the database.
+
+        *@
+        <button class="btn btn-primary" type="submit" asp-page-handler="Delete" formnovalidate
+                onclick="return confirm('Are you sure you wish to discontinue the product?')">
+            Discontinued
+        </button>
+    }
+
+    else
+    {
+        <button class="btn btn-primary" type="submit" asp-page-handler="New">Save New</button>
+        <button class="btn btn-primary" type="submit" asp-page-handler="Update" disabled>Update</button>
+        @*add javascript prompt precoded method for delete confirmation using the onclick event of the button
+
+            this button should be able to press whether the is valid data or not being displayed.
+            You are planning to delete the data from the database.
+
+        *@
+        <button class="btn btn-primary" type="submit" asp-page-handler="Delete" disabled formnovalidate
+                onclick="return confirm('Are you sure you wish to discontinue the product?')">
+            Discontinued
+        </button>
+    }
+
+    <button class="btn btn-primary" type="submit" asp-page-handler="Clear" formnovalidate>Clear</button>
+    <button class="btn btn-primary" type="submit" asp-page-handler="Search" formnovalidate>Return to Search</button>
 </form>

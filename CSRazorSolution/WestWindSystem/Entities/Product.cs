@@ -37,15 +37,8 @@ namespace WestWindSystem.Entities
         [Column(TypeName = "money")]
         public decimal UnitPrice
         {   // convert eh excess deciaml places off the decimal value
-            get
-            {
-                return decimal.Parse(String.Format("0:0.00", _UnitPrice));
-            }
-
-            set
-            {
-                _UnitPrice = value;
-            }
+            get { return decimal.Parse(_UnitPrice.ToString("0.00")); }
+            set { _UnitPrice = value; }
         }
         public int UnitsOnOrder { get; set; }
         public bool Discontinued { get; set; }
